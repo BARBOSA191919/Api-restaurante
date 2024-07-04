@@ -1,0 +1,99 @@
+<div class="header-content">
+  <div class="enlace-navegacion">
+    <shared-nav-white-icon></shared-nav-white-icon>
+    <div class="container-fluid contenedor-principal">
+      <h1 class="titulo-principal">Bienvenido! Registrate con nosotros!</h1>
+    </div>
+  </div>
+</div>
+
+<section class="cards-position d-flex justify-content-around align-items-center">
+
+  <div class="content-info d-flex flex-column justify-content-center align-items-center ">
+    <div class="container formulario justify-content-center ">
+      <div class="row">
+        <form (ngSubmit)="formSubmit()">
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" name="nombre" required [(ngModel)]="usuario.nombre">
+            </div>
+
+            <div class="col-md-6">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido" name="apellido" required
+                [(ngModel)]="usuario.apellido">
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="username" class="form-label">Username</label>
+              <input type="text" class="form-control" id="username" name="username" required
+                [(ngModel)]="usuario.username">
+            </div>
+
+            <div class="col-md-6">
+              <label for="tipoDocumento" class="form-label">Tipo de Documento</label>
+              <select class="form-select" id="tipoDocumento" name="tipoDocumento" required
+                [(ngModel)]="usuario.tipoDocumento">
+                <option value="" selected>-- Elegi tu opcion --</option>
+                <option value="DNI">DNI</option>
+                <option value="Cédula">Cédula</option>
+                <option value="Pasaporte">Pasaporte</option>
+                <option value="Licencia de conducir">Licencia de conducir</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" [(ngModel)]="usuario.email">
+            </div>
+
+            <div class="col-md-6">
+              <label for="direccion" class="form-label">Dirección</label>
+              <input type="text" class="form-control" id="direccion" name="direccion" [(ngModel)]="usuario.direccion">
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="password" name="password" required
+                [(ngModel)]="usuario.password">
+            </div>
+
+            <div class="col-md-6">
+              <label for="telefono" class="form-label">Teléfono</label>
+              <input type="text" class="form-control" id="telefono" name="telefono" [(ngModel)]="usuario.telefono">
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="numeroDocumento" class="form-label">Número de Documento</label>
+              <input type="number" class="form-control" id="numeroDocumento" name="numeroDocumento" required
+                [(ngModel)]="usuario.numeroDocumento">
+            </div>
+          </div>
+
+          <!-- Botón en el centro -->
+          <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+              <button type="submit" class="btn btn-primary btn-block">Registrarme</button>
+              <button type="reset" class="btn btn-primary btn-block">Limpiar</button>
+            </div>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- seccion del footer principal -->
+<shared-footer-principal></shared-footer-principal>

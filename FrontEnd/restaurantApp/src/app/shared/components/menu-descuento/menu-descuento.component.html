@@ -1,0 +1,20 @@
+<div class="contendor-principal container-fluid">
+  <h1>Menu de descuento</h1>
+  <div class="content-cards  row row-cols-1 row-cols-md-2 g-2">
+    <div class="card mb-3 card-custom-size" *ngFor=" let producto of productos">
+      <div class="row g-0">
+        <div class="col-md-4 p-2">
+          <img [src]="producto.imagen" class="img-fluid " alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">{{producto.nombre}}</h5>
+            <p class="card-text">{{producto.descripcion}}</p>
+            <p class="card-precio">${{producto.precio}}</p>
+            <button class="btn btn-warning" type="submit" (click)="ordenarProducto(producto)">Ordenar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+<div class="container-fluid content-bebida ">
+  <h1>bebidas</h1>
+
+  <section class="seccion-card1 d-flex">
+
+    <div class="card" *ngFor="let producto of productosPrimeraFila">
+      <img [src]="producto.imagen" class="card-img-top" alt="imagen de ensalada">
+      <div class="card-body">
+        <h3 class="card-title">{{producto.nombre}}</h3>
+        <p class="card-text">
+          {{producto.descripcion}}
+        </p>
+        <div class="d-flex align-items-center card-body2">
+          <p class="card-precio">${{producto.precio}}</p>
+          <button class="btn btn-warning" type="submit" (click)="ordenarProducto(producto)">Ordenar</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- SEGUNDA FILA DE LAS CARDS -->
+  <section class="seccion-card2 d-flex">
+
+    <div class="card" *ngFor="let producto of productosSegundaFila">
+      <img [src]="producto.imagen" class="card-img-top" alt="imagen de ensalada">
+      <div class="card-body">
+        <h3 class="card-title">{{producto.nombre}}</h3>
+        <p class="card-text">
+          {{producto.descripcion}}
+        </p>
+        <div class="d-flex align-items-center card-body2">
+          <p class="card-precio">${{producto.precio}}</p>
+          <button class="btn btn-warning" type="submit" (click)="ordenarProducto(producto)">Ordenar</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</div>

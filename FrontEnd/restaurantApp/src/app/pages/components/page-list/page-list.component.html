@@ -1,0 +1,36 @@
+<!-- se llama el componente de navegacion principal -->
+<shared-nav-second></shared-nav-second>
+
+<h2>Lista de empleados</h2>
+<Table class="container table table-striped">
+  <thead class="table-dark">
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Username</th>
+      <th>Tipo Documento</th>
+      <th>Email</th>
+      <th>Direccion</th>
+      <th>Contraseña</th>
+      <th>Telefono</th>
+      <th>Numero Documento</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let usuario of usuarios">
+      <td>{{usuario.nombre}}</td>
+      <td>{{usuario.apellido}}</td>
+      <td>{{usuario.username}}</td>
+      <td>{{usuario.tipoDocumento}}</td>
+      <td>{{usuario.email}}</td>
+      <td>{{usuario.direccion}}</td>
+      <td>{{usuario.password}}</td>
+      <td>{{usuario.telefono}}</td>
+      <td>{{usuario.numeroDocumento}}</td>
+      <td>
+        <button [routerLink]="['/actualizarUser']" routerLinkActive="router-link-active"
+          class="btn btn-info">Editar</button>
+        <button class="btn btn-danger">Eliminar</button>
+      </td>
+    </tr>
+</Table>

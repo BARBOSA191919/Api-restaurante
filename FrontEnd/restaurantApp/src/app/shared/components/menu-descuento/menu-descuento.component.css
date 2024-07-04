@@ -1,0 +1,68 @@
+.contendor-principal {
+  background-color: var(--grisClaroFondo);
+  margin-top: 20rem;
+  height: 108vh;
+}
+
+@media (min-width: 1440px) {
+  .contendor-principal {
+    height: 80vh;
+  }
+}
+
+h1 {
+  text-align: center;
+  padding: 4rem 0;
+  font-family: var(--radley);
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: #000;
+  font-weight: bold;
+}
+
+img {
+  height: 15rem;
+  width: 20rem;
+  border-radius: 2rem;
+}
+
+.card-custom-size {
+  width: 40%; /* Ajustar el ancho al 100% del contenedor */
+  max-width: none !important; /* Anular el max-width establecido */
+  border-radius: 2rem;
+}
+
+.card-title {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: var(--radley);
+}
+
+.card-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-precio {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+button {
+  position: absolute;
+  padding: 0 1.3rem;
+  font-family: var(--montserrat);
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: -1.8rem 0 2rem 12rem;
+  background-color: var(--Naranja);
+  border: none;
+  border-radius: 1.7rem;
+  color: #fff;
+}
+
+.card {
+  margin-left: 9rem;
+}

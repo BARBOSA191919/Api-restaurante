@@ -1,0 +1,158 @@
+.header-content {
+  background-image: url(../../../../assets/img/imgFondo/fondoBlog.jpg);
+  background-color: var(--Naranja);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-position {
+  margin-top: 36.9rem;
+}
+
+.circle-link {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.circle {
+  width: 120px; /* Tamaño del círculo */
+  height: 120px; /* Tamaño del círculo */
+  border-radius: 50%; /* Hace que el div sea un círculo */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del círculo */
+  position: relative;
+  z-index: 1;
+}
+
+.enlace-categoria {
+  margin-top: 3rem;
+  padding: 0 7rem;
+}
+
+.enlace-categoria4 {
+  padding: 4rem 4rem 0 4rem;
+}
+
+.enlace-categoria5 {
+  padding: 4.4rem 4rem 4rem 6rem;
+}
+
+.enlace-categoria2 {
+  margin-top: 3rem;
+  padding: 0 10rem 0 8rem;
+}
+
+.enlace-categoria3 {
+  margin-top: 2.5rem;
+  padding: 0 12rem 0 8rem;
+}
+
+@media (min-width: 1440px) {
+  .content-position {
+    margin-top: 60rem;
+  }
+
+  .enlace-categoria {
+    margin-top: 4.5rem;
+    padding: 0 7rem;
+  }
+
+  .enlace-categoria4 {
+    padding: 4rem 4rem 0 4rem;
+  }
+
+  .enlace-categoria5 {
+    padding: 4.4rem 7rem 0 7rem;
+  }
+
+  .enlace-categoria2 {
+    margin-top: 4.5rem;
+    padding: 0 10rem 0 8rem;
+  }
+
+  .enlace-categoria3 {
+    margin-top: 2.5rem;
+    padding: 0 12rem 0 8rem;
+  }
+}
+
+.circulo3 {
+  width: 150px; /* Tamaño del círculo */
+  height: 150px; /* Tamaño del círculo */
+  border-radius: 50%; /* Hace que el div sea un círculo */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del círculo */
+  position: relative;
+  z-index: 1;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Transición para agrandar la imagen */
+}
+
+.circle-link:hover .circle {
+  transform: scale(
+    1.1
+  ); /* Aumenta el tamaño del círculo cuando se pasa el ratón sobre él */
+}
+
+.circle-link:hover .circle img {
+  transform: scale(
+    1.1
+  ); /* Aumenta el tamaño de la imagen cuando se pasa el ratón sobre el círculo */
+}
+
+footer {
+  height: 10%;
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.footer-content {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: var(--inknut);
+  color: #000;
+  padding: 0 4rem;
+}
+
+.footer-content h2 {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  margin: 0 4rem;
+  font-family: var(--marcellus);
+}
+
+.content-line {
+  font-size: 6rem;
+  width: 10rem;
+  color: var(--Naranja);
+  padding: 0 8rem;
+}
+
+/* Media query para pantallas más grandes que 1300px */
+@media (min-width: 1440px) {
+  .content-main {
+    margin-left: 10rem; /* Aumentar el margen izquierdo */
+  }
+
+  .content-main h2 {
+    margin-top: 3rem;
+  }
+  .content-img img {
+    width: 70rem; /* Aumentar el tamaño de la imagen */
+    margin-top: 12rem;
+  }
+
+  .content-text p {
+    padding-right: 12rem;
+    margin-top: 3rem;
+  }
+
+  button {
+    margin-top: 5rem;
+  }
+}

@@ -1,0 +1,46 @@
+<div class="carrito-content container" *ngIf="carritoAbierto">
+  <div class="content-text d-flex justify-content-between align-items-center">
+    <h1>mi carrito</h1>
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="30" fill="currentColor" class="bi bi-x-circle"
+      viewBox="0 0 16 16" (click)="toggleCarrito()">
+      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+      <path
+        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+    </svg>
+  </div>
+
+  <div class="carrito-productos">
+    <!-- card de como se va a ver los productos en el carrito -->
+    <div class="product-content container-fluid d-flex align-items-center" *ngFor="let producto of productosCarrito">
+      <img [src]="producto.imagen" alt="Imagen de bebida">
+      <div class="info-contenedor ">
+        <div class="title-close d-flex justify-content-between align-items-center">
+          <h5>{{ producto.nombre }}</h5>
+          <i class="bi bi-x" (click)="deleteProductCar(producto)"></i>
+        </div>
+        <p class="text-descripcion">{{ producto.descripcion }}</p>
+        <p class="text-precio">{{ producto.precio | currency }}</p>
+      </div>
+
+      <div class="btn-group">
+        <button type="button" class="btn btn-danger" (click)="decrement(producto)">
+          <i class="bi bi-dash"></i>
+        </button>
+        <button type="button" class="btn btn-danger">{{ producto.cantidad }}</button>
+        <button type="button" class="btn btn-danger" (click)="increment(producto)">
+          <i class="bi bi-plus"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="content-price d-flex justify-content-between align-items-center">
+      <div class="price">
+        <p><span>Subtotal</span> {{ subtotal | currency }}</p>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block button-buy"
+        (click)="enviarCarritoAlServidor()">Comprar</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,46 @@
+.collapse ul {
+  font-family: var(--radley);
+  font-size: 2rem;
+  margin: 0;
+  padding-left: 5rem;
+  gap: 1.3rem;
+  padding: 2rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.lupa a img {
+  font-size: 100rem;
+  padding: 0;
+  width: 2.5rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.lupa {
+  padding: 0 12rem;
+  z-index: 4;
+}
+
+.icon-registrar {
+  height: 3rem;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-registar {
+  margin: 0;
+  padding: 0;
+  z-index: 3;
+}
+
+.btn-registar p {
+  font-size: 1.7rem;
+  font-family: var(--radley);
+  color: #000;
+  cursor: pointer;
+}
+
+.btn-registar a {
+  text-decoration: none;
+}

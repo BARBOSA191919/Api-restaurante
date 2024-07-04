@@ -1,0 +1,79 @@
+.contenedor-principal {
+  display: flex; /* Convertir el contenedor en un contenedor flex */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;
+}
+
+.titulo-principal {
+  margin: 0;
+  color: #fff;
+  font-size: 6rem;
+  font-family: var(--irisTittle);
+  padding-top: 9rem;
+  text-transform: capitalize;
+}
+
+.enlace-navegacion {
+  background-image: url(/assets/img/imgFondo/fondoReservation.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 45rem;
+}
+
+.content-info {
+  width: 50rem;
+  height: 45rem;
+  border-radius: 2rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.cards-position {
+  position: relative;
+  bottom: 10rem;
+}
+
+.formulario {
+  padding: 2rem;
+}
+
+label {
+  text-transform: uppercase;
+  letter-spacing: 0.1;
+  font-family: var(--radley);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+input {
+  display: block;
+  margin-bottom: 1rem;
+  border: 1px solid #000;
+  font-size: 1.4rem;
+}
+
+select {
+  margin-bottom: 1rem;
+  border: 1px solid #000;
+  font-size: 1.4rem;
+  color: #616161;
+  font-family: var(--montserrat);
+  font-weight: bold;
+}
+
+option {
+  color: #000;
+  font-weight: 500;
+}
+
+button {
+  height: 4rem;
+  width: 12rem;
+  font-size: 1.9rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--Naranja);
+  border: none;
+  margin: 0 auto;
+}

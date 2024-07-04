@@ -1,0 +1,42 @@
+h1 {
+  padding: 5rem 0;
+  text-align: center;
+  font-family: var(--radley);
+  font-size: 3.5rem;
+  color: #000;
+  font-weight: bold;
+}
+
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+  padding: 1rem;
+  min-height: 40rem;
+  border-radius: 2rem;
+}
+
+.col {
+  width: 30rem;
+  padding: 0;
+  margin: 0 auto;
+  box-shadow: #000;
+  cursor: pointer;
+}
+
+.card-position {
+  margin: 0 auto;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--montserrat);
+}
+
+.card-text {
+  font-family: var(--montserrat);
+  color: #000;
+  padding-top: 0.4rem;
+  text-align: center;
+  font-size: 1.2rem;
+}

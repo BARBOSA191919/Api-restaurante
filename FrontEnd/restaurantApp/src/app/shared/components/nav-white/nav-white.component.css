@@ -1,0 +1,80 @@
+.collapse ul {
+  font-family: var(--radley);
+  font-size: 2rem;
+  margin: 0;
+  padding-left: 5rem;
+  gap: 1.3rem;
+  padding: 2rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.collapse a {
+  color: #fff;
+}
+
+.img {
+  color: #fff;
+  font-size: 100rem;
+  padding: 0;
+  width: 2.5rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.enlace-icons {
+  display: flex;
+  padding: 0 2rem;
+}
+
+svg {
+  margin: 0 0.5rem;
+  position: relative;
+  color: #fff;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.lupa {
+  padding: 0 12rem;
+  z-index: 4;
+}
+
+.icon-registrar {
+  height: 4rem;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-registar {
+  margin: 0;
+  padding: 0;
+  z-index: 3;
+}
+
+.btn-registar p {
+  font-size: 1.7rem;
+  font-family: var(--radley);
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-registar svg {
+  width: 3rem;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.btn-registar a {
+  text-decoration: none;
+}
+
+.icons {
+  color: #fff;
+}
+
+.large-icon {
+  width: 30px; /* Ajusta el ancho según sea necesario */
+  height: 30px; /* Ajusta la altura según sea necesario */
+}

@@ -1,0 +1,125 @@
+.carrito-content {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50rem;
+  background-color: #fff;
+  height: 100vh;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.content-text {
+  padding: 2rem;
+}
+
+.content-text h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: var(--radley);
+}
+
+svg {
+  cursor: pointer;
+}
+
+.product-content {
+  background-color: #f1eeee;
+  border-radius: 0.6rem;
+  height: 12rem;
+  width: 40rem;
+  padding: 0;
+  margin: 2rem;
+}
+
+.product-content img {
+  width: 1;
+  position: relative;
+  left: 0;
+  height: 12rem;
+  margin: 0;
+  padding: 1rem;
+  border-radius: 2rem;
+  min-width: 16rem;
+}
+
+.info-contenedor {
+  padding: 1rem;
+  width: 100%;
+}
+
+.info-contenedor h5 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.7rem;
+  font-family: var(--radley);
+  color: #000;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.text-descripcion {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  line-height: 1.6rem;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+.text-precio {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.btn-group {
+  position: relative;
+  top: 3.7rem;
+  right: 5rem;
+}
+
+/* Estilos para el boton de agregar al carrito */
+i {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.title-close i {
+  position: absolute;
+  right: 9rem;
+  cursor: pointer;
+  color: var(--Naranja);
+  font-size: 3.4rem;
+}
+
+.carrito-productos {
+  overflow-y: auto;
+  max-height: 60vh; /* ajusta este valor según tus necesidades */
+}
+
+.content-price p {
+  font-size: 2.5rem;
+  font-family: var(--radley);
+  color: #000;
+  margin: 0;
+}
+
+span {
+  color: rgb(180, 5, 5);
+  font-weight: bold;
+}
+
+.button-buy {
+  font-size: 2rem;
+}
+
+.content-price {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: #fff;
+  padding: 2rem;
+}

@@ -1,0 +1,21 @@
+<!-- seccion comida -->
+<section class="section1 d-flex align-items-center">
+  <div class="tarjeta-content">
+    <h2>Comida</h2>
+    <!-- <p class="ver-mas">Ver mas</p> -->
+  </div>
+
+  <div class="card" *ngFor="let producto of productos">
+    <img [src]="producto.imagen" class="card-img-top" alt="imagen de ensalada">
+    <div class="card-body">
+      <h3 class="card-title">{{producto.nombre}}</h3>
+      <p class="card-text">
+        {{producto.descripcion}}
+      </p>
+      <div class="d-flex align-items-center card-body2">
+        <p class="card-precio">{{producto.precio}}$</p>
+        <button class="btn btn-warning" type="submit" (click)="ordenarProducto(producto)">Ordenar</button>
+      </div>
+    </div>
+  </div>
+</section>

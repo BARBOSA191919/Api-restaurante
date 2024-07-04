@@ -1,0 +1,30 @@
+label {
+  width: 100%;
+  text-align: center;
+
+  padding-top: 2rem;
+  font-family: var(--radley);
+  font-size: 1.9rem;
+}
+
+small {
+  padding-left: 14rem;
+}
+
+input {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #000;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-family: var(--radley);
+  font-weight: bold;
+}
+
+button {
+  margin: 2rem;
+  font-size: 1.7rem;
+}

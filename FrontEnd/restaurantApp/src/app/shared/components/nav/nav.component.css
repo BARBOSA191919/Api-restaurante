@@ -1,0 +1,46 @@
+.contenedor-principal {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.lupa img {
+  margin-right: 1.2rem;
+  width: 2.5rem;
+}
+
+.btn-registrar img {
+  height: 3rem;
+  padding: 0;
+  margin: 0;
+}
+.btn-registrar {
+  display: flex;
+  align-items: center;
+}
+
+.icon-registrar {
+  height: 2rem; /* Reduzco el tamaño del icono para alinear mejor con el texto */
+  margin-right: 0.5rem; /* Espacio entre el icono y el texto */
+}
+
+.content-enlace ul {
+  font-family: var(--radley);
+  font-size: 2rem;
+  gap: 1.8rem;
+  padding-left: 7rem;
+}
+
+.logo-principal {
+  padding-left: 13rem;
+}
+
+p {
+  font-size: 1.7rem;
+  font-family: var(--radley);
+  color: #000;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}

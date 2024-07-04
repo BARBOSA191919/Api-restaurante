@@ -1,0 +1,105 @@
+.contendor-principal {
+  background-color: var(--grisClaroFondo);
+  margin-top: 4rem;
+  height: 180vh;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+@media (min-width: 1440px) {
+  .contendor-principal {
+    height: 128vh;
+  }
+}
+
+h1 {
+  text-align: center;
+  padding: 4rem 0;
+  font-family: var(--radley);
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: #000;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  padding-top: 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  font-family: var(--radley);
+  font-size: 2.5rem;
+}
+
+.ver-mas {
+  text-align: center;
+  padding: 21rem 0 0 0;
+  color: #fff;
+  font-size: 2rem;
+  font-family: var(--radley);
+}
+
+.tarjeta-content {
+  border-radius: 2rem;
+  background-image: url(/assets/img/imgFondo/fondoCardsDesayuno.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #000;
+  width: 22rem;
+  height: 30rem;
+  margin: 2rem 4rem 2rem 2rem;
+}
+
+.card {
+  width: 25rem;
+  margin-right: 2rem;
+  border-radius: 2rem;
+  height: 30rem;
+}
+
+img {
+  min-height: 16rem;
+}
+
+.card img {
+  background-size: cover;
+  max-width: 24.4rem;
+  padding: 1rem 1rem 0 1rem;
+  border-radius: 2rem;
+}
+
+.card-title {
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-family: var(--radley);
+  margin: 0;
+}
+
+.card-text {
+  padding: 0 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #6f6969c3;
+  font-family: var(--montserrat);
+}
+
+.card-precio {
+  padding-right: 4rem;
+  padding-left: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button {
+  font-family: var(--montserrat);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  background-color: var(--Naranja);
+  border: none;
+  border-radius: 1.7rem;
+  color: #fff;
+}

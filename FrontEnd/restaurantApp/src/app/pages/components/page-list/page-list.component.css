@@ -1,0 +1,16 @@
+h2 {
+  font-size: 3rem;
+  font-family: var(--radley);
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 5rem 0;
+}
+
+th {
+  font-size: 1.5rem;
+}
+
+td {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,99 @@
+.contenedor-principal {
+  display: flex; /* Convertir el contenedor en un contenedor flex */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;
+  background-image: url(/assets/img/imgFondo/fondoReservation.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35rem;
+  z-index: 1;
+}
+
+.titulo-principal {
+  margin: 0;
+  color: #fff;
+  font-size: 10rem;
+  font-family: var(--irisTittle);
+  padding-bottom: 7rem;
+}
+
+.logo-principal {
+  position: absolute;
+  margin: 3rem 4rem;
+}
+
+.logo-principal h2 {
+  text-align: center;
+  font-family: var(--irisTittle);
+  color: #fff;
+  font-size: 3rem;
+  margin: 0;
+  line-height: 2.5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.content-info {
+  width: 25rem;
+  height: 15rem;
+  border-radius: 2rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+svg {
+  color: var(--Naranja);
+  position: relative;
+  bottom: 0.8rem;
+}
+
+h5 {
+  color: #5c5c5c;
+  font-family: var(--radley);
+  font-weight: bold;
+  padding-top: 1;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 2rem;
+  color: #000;
+  font-size: 2rem;
+  font-family: var(--radley);
+}
+
+.cards-position {
+  position: relative;
+  bottom: 6rem;
+}
+
+label {
+  width: 100%;
+  text-align: center;
+
+  padding-top: 2rem;
+  font-family: var(--radley);
+  font-size: 1.9rem;
+}
+
+small {
+  padding-left: 14rem;
+}
+
+input {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #000;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-family: var(--radley);
+  font-weight: bold;
+}
+
+button {
+  margin: 2rem;
+  font-size: 1.7rem;
+}

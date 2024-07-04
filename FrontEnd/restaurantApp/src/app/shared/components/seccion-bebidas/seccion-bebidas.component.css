@@ -1,0 +1,65 @@
+h1 {
+  text-align: center;
+  padding: 5rem 0;
+  font-family: var(--radley);
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: #000;
+  font-weight: bold;
+}
+
+.card {
+  width: 25rem;
+  margin: 0 auto;
+  border-radius: 2rem;
+  height: 32rem;
+}
+
+.card img {
+  background-size: cover;
+  width: 24.4rem;
+  min-height: 18rem;
+  padding: 1rem 1rem 0 1rem;
+  border-radius: 2rem;
+}
+
+.card-title {
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-family: var(--radley);
+  margin: 0;
+}
+
+.card-text {
+  padding: 0 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #6f6969c3;
+  font-family: var(--montserrat);
+}
+
+.card-precio {
+  padding-right: 4rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button {
+  font-family: var(--montserrat);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  background-color: var(--Naranja);
+  border: none;
+  border-radius: 1.7rem;
+  color: #fff;
+}
+
+.seccion-card2 {
+  margin-top: 3.5rem;
+}
